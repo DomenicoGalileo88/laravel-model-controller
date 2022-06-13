@@ -10267,3 +10267,14 @@ main .card {
 main .card:hover {
   transform: scale(1.1);
 }
+
+footer {
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: rgba(220, 26, 40, 0.6784313725);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
