@@ -2,13 +2,11 @@
 
 @section('content')
 
-<h1>Movies:</h1>
-
-<div class="container">
-    <div class="row">
+<div class="container py-5">
+    <div class="row row-cols-5 g-3">
         @forelse($movies as $movie)
         <div class="col">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 15rem;">
 
                 <div class="card-body">
                     <h4 class="card-title">Title: {{$movie->title}}</h5>

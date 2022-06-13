@@ -10228,3 +10228,42 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header {
+  background-color: rgb(40, 40, 40);
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .logo img {
+  width: 250px;
+}
+header .logo img:hover {
+  transform: scale(1.1);
+}
+header .navbar_movie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navbar_movie a {
+  color: white;
+  text-decoration: none;
+  padding-right: 2rem;
+  font-size: 1rem;
+}
+header .navbar_movie a img {
+  width: 150px;
+}
+header .navbar_movie a img:hover {
+  transform: scale(1.1);
+}
+
+main .card {
+  min-height: 250px;
+  background-color: rgba(220, 26, 40, 0.6784313725);
+}
+main .card:hover {
+  transform: scale(1.1);
+}

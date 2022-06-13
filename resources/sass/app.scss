@@ -1,1 +1,44 @@
- @use "bootstrap";
+@use "bootstrap";
+
+header {
+    background-color: rgb(40, 40, 40);
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 250px;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .navbar_movie {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            color: white;
+            text-decoration: none;
+            padding-right: 2rem;
+            font-size: 1rem;
+            img {
+                width: 150px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+main {
+    .card {
+        min-height: 250px;
+        background-color: #dc1a28ad;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
